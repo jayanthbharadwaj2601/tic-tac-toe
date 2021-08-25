@@ -1,0 +1,59 @@
+body
+{
+    background-image: url("background.jpg");
+    background-size: 1500px;
+}
+button
+{
+    width: 13%;
+    height: 60px;
+    border-radius: 10px;
+    border-style: none;
+    box-shadow: 4px 4px 4px rgb(97, 94, 94);
+    color: white;
+    background-color: rgb(255, 102, 0);
+    text-shadow: 1px 1px 1px black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+.row
+{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5%;
+}
+#player
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    box-shadow: 3px 3px 3px rgb(97, 94, 94);
+    width: 30%;
+    padding: 1.5% 1.5% 1.5% 1.5%;
+    text-align: center;
+    position: relative;
+    left: 4.5%;
+    border-radius: 13px;
+}
+#result
+{
+    color: white;
+    background-color: black;
+    width: 40%;
+    padding: 1.5% 1.5% 1.5% 1.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 13px;
+    box-shadow: 3px 3px 3px rgb(97, 94, 94);
+    text-align: center;
+    word-wrap: break-word;
+}
+.columns
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    left: 27.5%;
+}
