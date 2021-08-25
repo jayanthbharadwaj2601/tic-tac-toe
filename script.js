@@ -186,7 +186,7 @@ function insert(i,j)
         }
         else
         {
-            document.getElementById("result").innerHTML="Result: <br> Match Drawm"
+            document.getElementById("result").innerHTML="Result: <br> Match Drawn"
         }
     }
 }
